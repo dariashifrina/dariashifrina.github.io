@@ -1,1 +1,58 @@
-Hello world
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Noto Sans';
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f4f4f9;
+            color: #333;
+            text-align: center;
+        }
+
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .links a {
+             display: inline-block;
+            margin: 0 10px;
+            text-decoration: none;
+            color: #23588a;
+            font-weight: bold;
+        }
+
+        .links a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://media.licdn.com/dms/image/v2/C4E03AQHfQ1fivPnKOw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1652255956413?e=1743033600&v=beta&t=Js7saLIOIm5ZiEPSaGqEMTCWLxGg6Dtw9KQrHvdHs9E" alt="Your Profile Picture" class="profile-image">
+        <div class="title">Software Engineer at Datadog</div>
+        <div class="links">
+            <a href="https://www.linkedin.com/in/daria-shifrina" target="_blank">LinkedIn</a>
+        </div>
+    </div>
+</body>
+</html>
